@@ -1,0 +1,103 @@
+/* Estilos gerais para o corpo da página */
+body {
+    /* Fonte padrão usada em todo o texto */
+    font-family: Arial, sans-serif;
+    /* Tamanho da fonte base */
+    font-size: 16px;
+    /* Centraliza os elementos na tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Altura completa da janela */
+    height: 100vh;
+    /* Remove margens padrão */
+    margin: 0;
+    /* Cor de fundo da página */
+    background: #282c34;
+    /* Cor do texto padrão */
+    color: #61dafb;
+}
+
+/* Estilos do contêiner principal */
+.converter {
+    /* Fundo escuro para contraste */
+    background: #20232a;
+    /* Bordas arredondadas */
+    border-radius: 8px;
+    /* Sombra suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Espaçamento interno */
+    padding: 20px;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Largura fixa */
+    width: 300px;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo dos campos de entrada */
+input {
+    /* Largura total do contêiner */
+    width: 100%;
+    /* Espaçamento interno */
+    padding: 10px;
+    /* Margem inferior */
+    margin-bottom: 10px;
+    /* Tamanho da fonte */
+    font-size: 1em;
+    /* Bordas */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* Fundo escuro */
+    background-color: #333;
+    /* Cor do texto */
+    color: #fff;
+}
+
+/* Estilo dos botões */
+button {
+    /* Largura total do contêiner */
+    width: 100%;
+    /* Espaçamento interno */
+    padding: 10px;
+    /* Cor de fundo */
+    background-color: #61dafb;
+    /* Cor do texto */
+    color: #20232a;
+    /* Texto em negrito */
+    font-weight: bold;
+    /* Remove bordas padrão */
+    border: none;
+    /* Bordas arredondadas */
+    border-radius: 4px;
+    /* Cursor do mouse muda para "pointer" */
+    cursor: pointer;
+    /* Margem inferior */
+    margin-bottom: 10px;
+}
+
+/* Estilo dos botões ao passar o mouse */
+button:hover {
+    /* Cor de fundo mais escura */
+    background-color: #21a1f1;
+}
+
+/* Estilo para a área de exibição dos resultados */
+.result {
+    /* Margem superior */
+    margin-top: 20px;
+    /* Tamanho da fonte maior */
+    font-size: 1.2em;
+}

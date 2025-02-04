@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <!-- Link para o arquivo CSS para aplicar estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Contêiner principal que organiza o conteúdo do conversor -->
+    <div class="converter">
+        <h1>Temperature Converter</h1>
+        <!-- Formulário que contém os campos de entrada e botões -->
+        <form id="converterForm" onsubmit="return false;">
+            <!-- Campo para inserir a temperatura em Celsius -->
+            <label for="celsius">Input Celsius: </label>
+            <input 
+                type="number" 
+                id="celsius" 
+                name="celsius" 
+                placeholder="Celsius">
+            <!-- Botão para converter de Celsius para Fahrenheit -->
+            <button 
+                type="button" 
+                onclick="convertFromCelsius()">
+                Convert
+            </button>
+            <br><br>
+            <!-- Campo para inserir a temperatura em Fahrenheit -->
+            <label for="fahrenheit">Input Fahrenheit: </label>
+            <input 
+                type="number" 
+                id="fahrenheit" 
+                name="fahrenheit" 
+                placeholder="Fahrenheit">
+            <!-- Botão para converter de Fahrenheit para Celsius -->
+            <button 
+                type="button" 
+                onclick="convertFromFahrenheit()">
+                Convert
+            </button>
+        </form>
+        <!-- Div onde o resultado da conversão será exibido -->
+        <div id="result" class="result"></div>
+    </div>
+    <!-- Inclusão do arquivo JavaScript que contém a lógica -->
+    <script src="script.js"></script>
+</body>
+</html>
